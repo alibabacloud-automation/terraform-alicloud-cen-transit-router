@@ -1,3 +1,10 @@
+variable "region" {
+  description = "The region id."
+  default     = "cn-shenzhen"
+  type        = string
+}
+
+
 #################
 # CEN Transit Router
 #################
